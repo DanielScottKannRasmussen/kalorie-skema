@@ -1,0 +1,15 @@
+[
+    { "måned": "Januar", "antal dage": "31", "kalorier": [], "farve": "#ffadad" },
+    { "måned": "Febuar", "antal dage": "28", "kalorier": [], "farve": "#ffd6a5" },
+    { "måned": "Marts", "antal dage": "31", "kalorier": [], "farve": "#fdffb6" },
+    { "måned": "April", "antal dage": "30", "kalorier": [], "farve": "#caffbf" },
+    { "måned": "Maj", "antal dage": "31", "kalorier": [], "farve": "#9bf6ff" },
+    { "måned": "Juni", "antal dage": "30", "kalorier": [], "farve": "#a0c4ff" },
+    { "måned": "Juli", "antal dage": "31", "kalorier": [], "farve": "#bdb2ff" },
+    { "måned": "August", "antal dage": "31", "kalorier": [], "farve": "#ffc6ff" },
+    { "måned": "September", "antal dage": "30", "kalorier": [], "farve": "#00202e" },
+    { "måned": "October", "antal dage": "31", "kalorier": [], "farve": "#003f5c" },
+    { "måned": "November", "antal dage": "30", "kalorier": [], "farve": "#8a508f" },
+    { "måned": "December", "antal dage": "31", "kalorier": [], "farve": "#bc5090" }
+  ]
+  

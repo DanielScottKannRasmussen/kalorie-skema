@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00b4a8;
+    margin: 5px auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /*  top-align */
+    gap: 60px;                /* afstand mellem graf og tabel */
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  
+  canvas {
+    margin-bottom: 50px;
+  }
+  #myChart {
+    width: 800px;
+    height: 500px;
+    background-color: #fff7fb;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  
+  
+.button:hover {
+    background-color: #ffffff;
+}
+path {
+	stroke: white;
+}

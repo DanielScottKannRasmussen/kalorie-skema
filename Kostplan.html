@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kostplan</title>
+  <link rel="stylesheet" href="ting.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="kostplan.js"></script>
+</head>
+
+<body>
+  <h2>Kalorier per dag</h2>
+  <h3 id="current-month">Januar</h3> <!--Kig på om farve fra json til måned-->
+  <button id="back-month" class="button">Tilbage</button>
+  <button id="next-month" class="button">Næste måned</button>
+  
+  <!-- Flex-layout: Tabel til venstre, graf til højre. -->
+  <div class="flex-container">
+    
+    <!-- Tabel til venstre -->
+    <div class="kalorie-tabel">
+      <table>
+        <thead>
+          <tr>
+            <th>Dag</th>
+            <th>Kalorier</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- JavaScript tilføjer rækker -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Graf til højre -->
+    <div class="graf-wrapper">
+      <canvas id="myChart" width="800" height="500"></canvas>
+     
+      <!-- Pie chart under grafen -->
+     <svg id="pie-chart" width="400" height="400"></svg>
+    </div>
+
+  </div>
+</body>
+</html>
